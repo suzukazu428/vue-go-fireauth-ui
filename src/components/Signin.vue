@@ -14,9 +14,19 @@
         placeholder="Password"
       />
     </div>
-    <BaseButton class="w-1/4 mx-auto h-10 mt-6" @click="signIn" >Signin</BaseButton>
+    <BaseButton
+      class="w-1/4 mx-auto h-10 mt-6"
+      @click="signIn"
+    >
+      Signin
+    </BaseButton>
     <p class="mt-4">You don't have an account?</p>
-    <router-link to="/signup" class="underline text-green-400 mx-2">create account now!!</router-link>
+    <router-link
+      to="/signup"
+      class="underline text-green-400 mx-2"
+    >
+      create account now!!
+    </router-link>
   </div>
 </template>
 
