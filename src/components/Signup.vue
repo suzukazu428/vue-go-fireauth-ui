@@ -21,7 +21,12 @@
       Register
     </BaseButton>
     <p class="mt-4">Do you have an account?</p>
-    <router-link to="/signin" class="underline text-green-400 mx-2">sign in now!!</router-link>
+    <router-link
+      to="/signin"
+      class="underline text-green-400 mx-2"
+    >
+      sign in now!!
+    </router-link>
   </div>
 </template>
 
